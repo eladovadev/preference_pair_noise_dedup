@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "eladovadev-evalplat_jd020"
+name = "eladovadev-preference_pair_noise_dedup"
 version = "0.1.0"
 description = "对内容做归一化与分片比对，找出模型评测平台工程师·偏好数据的成对噪声上的重复项并按相似度归并"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://eladovadev.github.io"
-Repository = "https://github.com/eladovadev/evalplat_jd020"
-Issues = "https://github.com/eladovadev/evalplat_jd020/issues"
+Repository = "https://github.com/eladovadev/preference_pair_noise_dedup"
+Issues = "https://github.com/eladovadev/preference_pair_noise_dedup/issues"
 
 [project.scripts]
-evalplat_jd020 = "evalplat_jd020:main"
+preference_pair_noise_dedup = "preference_pair_noise_dedup:main"
 
 [tool.setuptools]
-py-modules = ["evalplat_jd020"]
+py-modules = ["preference_pair_noise_dedup"]
